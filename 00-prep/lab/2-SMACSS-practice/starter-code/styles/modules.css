@@ -1,27 +1,47 @@
-#logo {
-  float: left;
-  padding-bottom: 25px;
-  color: black;
-  text-decoration: none;
+input, .recipe {
+  font-family: 'Patrick Hand', cursive;
 }
 
-#logo img {
+aside img {
   float: left;
 }
 
-#logo h1 {
-  padding-left: 50px;
-  font-family: 'Yellowtail', cursive;
-  font-size: 2.4em;
+aside h3 {
+  color: #555;
+  font-size: 1.6em;
+  padding: 0 0 10px 100px;
 }
 
-#slogan {
-  width: 250px;
-  padding-left: 55px;
-  color: #a3a4a2;
-  font-family: 'Abel', sans-serif;
-  font-size: .65em;
+aside p {
+  margin: 0;
+  padding-left: 100px;
+  text-indent: 0;
+  width: 65%;
+}
+
+aside button {
+  background: #b8705a;
+  border: none;
+  color: #fff;
+  float: right;
+  font-size: 1.2em;
+  padding: 15px 40px;
   text-transform: uppercase;
+}
+
+footer section p{
+  color: #aaa;
+  line-height: 1.5em;
+  padding: 50px 0;
+  text-align: center;
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin: 20px 0px;
+  text-indent: 30px;
 }
 
 nav ul {
@@ -33,20 +53,15 @@ nav li {
   padding-right: 2px;
 }
 
-h2 {
-  margin-top: 50px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
+.print img {
+  margin-right: 3px;
 }
 
 .print, .date {
   color: #a9a8a5;
-  font-family: 'Abel', sans-serif;
   font-size: .8em;
-  margin: 0;
+  margin: 10px 0 33px;
   text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 33px;
 }
 
 .date {
@@ -54,85 +69,52 @@ h2 {
 }
 
 .print {
-  text-decoration: none;
-  padding-left: 30px;
   float: right;
-}
-
-.print img {
-  margin-right: 3px;
-}
-
-main p {
-  color: #333;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
-}
-
-input {
-  font-family: 'Patrick Hand', cursive;
+  padding-left: 30px;
+  text-decoration: none;
 }
 
 .recipe {
-  letter-spacing: .1em;
-  font-family: 'Patrick Hand', cursive;
-  color: #666a42;
   background-image: url("../img/list-bg.png");
+  color: #666a42;
   height: 260px;
-  padding: 37px 0 0 60px;
+  letter-spacing: .1em;
   margin: 40px 0;
+  padding: 37px 0 0 60px;
 }
 
 .recipe li {
   float: left;
-  width: 40%;
   font-size: 1.3em;
   line-height: 31px;
+  width: 40%;
 }
 
-aside img {
+#slogan, .print, .date, aside button {
+  font-family: 'Abel', sans-serif;
+}
+
+#logo img {
   float: left;
 }
 
-aside h3 {
-  padding-left: 100px;
-  font-size: 1.6em;
-  padding-bottom: 10px;
-  color: #555;
+#logo h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.4em;
+  padding-left: 50px;
 }
 
-aside p {
-  padding-left: 100px;
-  width: 65%;
-  margin: 0;
-  text-indent: 0;
-
+#logo {
+  color: black;
+  float: left;
+  padding-bottom: 25px;
+  text-decoration: none;
 }
 
-aside button {
-  float: right;
-  font-family: 'Abel', sans-serif;
+#slogan {
+  color: #a3a4a2;
+  font-size: .65em;
+  padding-left: 55px;
   text-transform: uppercase;
-  padding: 15px 40px;
-  background: #b8705a;
-  color: #fff;
-  font-size: 1.2em;
-  border: none;
+  width: 250px;
 }
-
-section hr {
-  border-bottom: 1px solid #eee;
-  height: 0;
-}
-
-
-footer section p{
-  padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
-  color: #aaa;
-}
-
-
