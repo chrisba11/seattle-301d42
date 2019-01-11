@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 280px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border: 5px solid red;
+  background: gray;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 3em;
+  justify-self: center;
+
+}
+
+
+/* .odd {
+  background: yellow;
+  height: 100px;
+  width: 200px;
+  line-height: 100px
+}
+
+.even {
+  background: cyan;
+  height: 200px;
+  width: 100px;
+} */
