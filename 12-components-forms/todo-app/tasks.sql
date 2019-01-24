@@ -6,7 +6,7 @@ CREATE TABLE tasks (
   description TEXT,
   contact VARCHAR(255),
   status VARCHAR(255),
-  category VARCHAR(255),
+  category VARCHAR(255)
 );
 
 INSERT INTO tasks (title, contact, status, category, description) 
